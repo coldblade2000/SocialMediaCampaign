@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_intro"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Introduction" />
+
+        <item
+            android:id="@+id/nav_causes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Causes" />
+        <item
+            android:id="@+id/nav_cando"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="What can I do?" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Tips to help the planet" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Spread the message" />
+    </group>
+
+
+</menu>
